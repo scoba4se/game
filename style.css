@@ -1,0 +1,63 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;               /* Use flexbox for centering */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  height: 100vh;               /* Full viewport height */
+  margin: 0;
+  text-align: center;          /* Center text */
+}
+
+#div {
+  background-color: darkturquoise;
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add some shadow for better visual effect */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#instructions {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#guess {
+  width: calc(100% - 40px);  /* Ensure the input field is responsive */
+  max-width: 400px;          /* Set a max width */
+  height: 30px;
+  font-size: 24px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;        /* Add border radius */
+}
+
+#submit {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+
+#submit:hover {
+  background-color: #0056b3;   /* Darken button on hover */
+}
+
+#result {
+  color: #666;
+  font-size: 22px;
+  margin-top: 20px;           /* Add margin to space out the result text */
+}
+
+#span {
+  color: #2563eb;
+}
